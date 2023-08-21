@@ -132,7 +132,7 @@ int main()
 			zcr_avg+=zcr[i];
 
 		zcr_avg /= 40;
-		zcr_avg+=30;
+		
 
 		if(zcr_avg>40)						
 			printf("The word is YES.");
